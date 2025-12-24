@@ -10,7 +10,7 @@ const { WebSocket, createWebSocketStream } = require('ws');
 
 // --- 安全配置项 ---
 // 请务必在环境变量中修改 UUID，不要使用下方默认值
-const UUID = process.env.UUID || '7f2b8a5c-d9e1-4b36-a52f-c10a8e947d1b'; 
+const UUID = process.env.UUID || 'a1849bb8-d30d-4460-82c2-1be27825106f'; 
 const DOMAIN = process.env.DOMAIN || '';           // 填写项目域名或已反代的域名
 const WSPATH = process.env.WSPATH || UUID.slice(0, 8); // 节点路径
 const SUB_PATH = process.env.SUB_PATH || 'sub';    // 订阅路径
