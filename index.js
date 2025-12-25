@@ -9,7 +9,7 @@ const { Buffer } = require('buffer');
 const { WebSocket, createWebSocketStream } = require('ws');
 
 // --- 安全与基础配置 ---
-const UUID = process.env.UUID || '7f2b8a5c-d9e1-4b36-a52f-c10a8e947d1b'; 
+const UUID = process.env.UUID || '99e284b1-e050-4b7f-9076-ae6320495aa0'; 
 const DOMAIN = process.env.DOMAIN || '';           
 const WSPATH = process.env.WSPATH || UUID.slice(0, 8); 
 const SUB_PATH = process.env.SUB_PATH || 'sub';    
